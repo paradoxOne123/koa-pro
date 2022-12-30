@@ -1,0 +1,37 @@
+html {
+    font-family: PingFangSC-Regular, HelveticaNeue-Thin, "微软雅黑", helvetica, verdana, sans-serif, roboto, NotoSansHand-Regular, "冬青黑体", "华文细黑";
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: auto;
+    line-height: 1.5;
+    color: #000;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.el-button--primary,.el-button--primary:focus, .el-button--primary:hover {
+	color: #FFF;
+	background-color: #ff4f6b;
+	border-color: #ff4f6b;
+}
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover {
+	color: #FFF;
+	background-color: #ff899c;
+	border-color: #ff899c;
+}
+.el-button--default:focus, .el-button--default:hover,.el-button.is-plain:focus, .el-button.is-plain:hover{
+	border-color: #ff4f6b;
+	color: #ff4f6b;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
